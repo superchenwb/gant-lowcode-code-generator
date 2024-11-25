@@ -101,7 +101,7 @@ preference.set('DataSourcePane', {
 
   // 设置内置 setter 和事件绑定、插件绑定面板
   const setterRegistry = (ctx: ILowCodePluginContext) => {
-    const { setterMap, pluginMap } = (window as any).AliLowCodeEngineExt;
+    const { setterMap, pluginMap } = (window as any).GantLowCodeEngineExt;
     return {
       name: 'ext-setters-registry',
       async init() {
