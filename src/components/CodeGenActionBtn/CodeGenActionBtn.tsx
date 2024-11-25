@@ -1,10 +1,10 @@
-import './CodeGenActionBtn.scss';
+import './CodeGenActionBtn.less';
 
 import React, { useState } from 'react';
 
-import * as CodeGenerator from '@alilc/lowcode-code-generator/standalone-loader';
-import type { ILowCodePluginContext } from '@alilc/lowcode-engine';
-import { ProjectSchema, TransformStage } from '@alilc/lowcode-types';
+import * as CodeGenerator from '@gant-lowcode/lowcode-code-generator/standalone-loader';
+import type { ILowCodePluginContext } from '@gant-lowcode/lowcode-engine';
+import { ProjectSchema, TransformStage } from '@gant-lowcode/lowcode-types';
 import { Button, Drawer, Loading, Message } from '@alifd/next';
 import coerce from 'semver/functions/coerce';
 

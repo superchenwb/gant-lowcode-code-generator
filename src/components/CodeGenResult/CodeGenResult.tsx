@@ -1,17 +1,17 @@
-import './CodeGenResult.scss';
+import './CodeGenResult.less';
 
 import React, { useEffect, useState } from 'react';
 
 import FileSaver from 'file-saver';
 import JSZip from 'jszip';
 
-import { Result } from '@alilc/lowcode-code-generator/standalone-loader';
+import { Result } from '@gant-lowcode/lowcode-code-generator/standalone-loader';
 import { Collapse, Message } from '@alifd/next';
 
 import { GravityCode } from '../GravityCode';
 import { CodeGenPreview } from '../CodeGenPreview';
 import { SourcesView } from '../SourcesView';
-import { ProjectSchema } from '@alilc/lowcode-types';
+import { ProjectSchema } from '@gant-lowcode/lowcode-types';
 
 export function CodeGenResult({ result, schema }: { result: Result | null | undefined; schema: ProjectSchema | null; originalSchema: ProjectSchema | null }) {
   const [paneState, setPaneState] = useState({ expandedKeys: ['sources', 'preview'] });

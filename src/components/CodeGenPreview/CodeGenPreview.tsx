@@ -7,7 +7,7 @@ import { GravityPreview } from '../GravityPreview';
 import { CodeSandboxPreview } from '../CodeSandboxPreview';
 import { ForceUpdate } from '../GravityPreview/ForceUpdate';
 
-import './CodeGenPreview.scss';
+import './CodeGenPreview.less';
 
 export type CodeGenPreviewProps = {
   code: GravityCode | null;

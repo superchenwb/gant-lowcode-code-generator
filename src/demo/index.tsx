@@ -1,9 +1,9 @@
 import './index.scss';
 
 import React from 'react';
-import { ILowCodePluginContext, init, plugins } from '@alilc/lowcode-engine';
-import ComponentsPane from '@alilc/lowcode-plugin-components-pane';
-import Inject, { injectAssets } from '@alilc/lowcode-plugin-inject';
+import { ILowCodePluginContext, init, plugins } from '@gant-lowcode/lowcode-engine';
+import ComponentsPane from '@gant-lowcode/lowcode-plugin-components-pane';
+import Inject, { injectAssets } from '@gant-lowcode/lowcode-plugin-inject';
 
 import CodeGenPlugin from '../';
 
@@ -145,8 +145,8 @@ preference.set('DataSourcePane', {
       // simulatorUrl 在当 engine-core.js 同一个路径下时是不需要配置的！！！
       // 这里因为用的是 unpkg，在不同 npm 包，engine-core.js 和 react-simulator-renderer.js 是不同路径
       simulatorUrl: [
-        'https://alifd.alicdn.com/npm/@alilc/lowcode-react-simulator-renderer@beta/dist/css/react-simulator-renderer.css',
-        'https://alifd.alicdn.com/npm/@alilc/lowcode-react-simulator-renderer@beta/dist/js/react-simulator-renderer.js',
+        'https://alifd.alicdn.com/npm/@gant-lowcode/lowcode-react-simulator-renderer@beta/dist/css/react-simulator-renderer.css',
+        'https://alifd.alicdn.com/npm/@gant-lowcode/lowcode-react-simulator-renderer@beta/dist/js/react-simulator-renderer.js',
       ],
     },
     preference

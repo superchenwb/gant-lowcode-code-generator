@@ -1,4 +1,4 @@
-import './FileTypeIcon.scss';
+import './FileTypeIcon.less';
 import React from 'react';
 
 export type FileTypeIconProps = React.HtmlHTMLAttributes<HTMLSpanElement> & {

@@ -3,7 +3,7 @@ import React, { useMemo, useState, useEffect } from 'react';
 import { Button, Loading, Message } from '@alifd/next';
 import type { CodeGenPreviewProps } from '../CodeGenPreview';
 import { fixPreviewCode } from '../CodeGenPreview/fixPreviewCode';
-import './CodeSandboxPreview.scss';
+import './CodeSandboxPreview.less';
 
 type CodeSandboxFiles = Record<
   string,

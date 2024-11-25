@@ -6,12 +6,12 @@
 
 ## 使用方法
 
-1. 安装依赖 `npm install --save @alilc/lowcode-plugin-code-generator`
+1. 安装依赖 `npm install --save @gant-lowcode/lowcode-plugin-code-generator`
 2. 注册插件:
 
 ```ts
-import { plugins } from '@alilc/lowcode-engine';
-import CodeGenPlugin from '@alilc/lowcode-plugin-code-generator';
+import { plugins } from '@gant-lowcode/lowcode-engine';
+import CodeGenPlugin from '@gant-lowcode/lowcode-plugin-code-generator';
 
 // 在你的初始化函数中：
 await plugins.register(CodeGenPlugin);
@@ -30,7 +30,7 @@ await plugins.register(CodeGenPlugin, { disableCodeGenActionBtn: true });
 本插件提供了出码的 API，注册了插件后, 可以这么样来用:
 
 ```js
-import { plugins } from '@alilc/lowcode-engine';
+import { plugins } from '@gant-lowcode/lowcode-engine';
 
 const codeGenResult = plugins.codeGenerator.generateCode({
   solution: 'icejs',

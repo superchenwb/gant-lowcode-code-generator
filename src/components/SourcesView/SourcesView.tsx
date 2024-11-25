@@ -1,12 +1,12 @@
-import './SourcesView.scss';
+import './SourcesView.less';
 
 import React, { useMemo, useRef, useState } from 'react';
 
 import naturalCompare from 'string-natural-compare';
 
 import { Tree } from '@alifd/next';
-import Editor from '@alilc/lowcode-plugin-base-monaco-editor';
-import '@alilc/lowcode-plugin-base-monaco-editor/lib/style';
+import Editor from '@gant-lowcode/lowcode-plugin-base-monaco-editor';
+import '@gant-lowcode/lowcode-plugin-base-monaco-editor/lib/style';
 
 import { FileTypeIcon } from '../FileTypeIcon';
 import { GravityCode } from '../GravityCode';

@@ -1,5 +1,5 @@
-import * as CodeGenerator from '@alilc/lowcode-code-generator/standalone-loader';
-import type { ILowCodePluginContext } from '@alilc/lowcode-engine';
+import * as CodeGenerator from '@gant-lowcode/lowcode-code-generator/standalone-loader';
+import type { ILowCodePluginContext } from '@gant-lowcode/lowcode-engine';
 
 import { CodeGenActionBtn } from './components/CodeGenActionBtn';
 
